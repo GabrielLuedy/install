@@ -1,0 +1,50 @@
+# apt-get install git 
+--------------------------------------------------------------
+Node.js v14.x:
+
+# Using Ubuntu
+curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
+sudo apt-get install -y nodejs
+
+# Using Debian, as root
+curl -sL https://deb.nodesource.com/setup_14.x | bash -
+apt-get install -y nodejs
+
+Node.js v12.x:
+
+# Using Ubuntu
+curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
+sudo apt-get install -y nodejs
+
+# Using Debian, as root
+curl -sL https://deb.nodesource.com/setup_12.x | bash -
+apt-get install -y nodejs
+
+--------------------------------------------------------------
+
+1 react
+
+2- Install Create-React-App Tool on your machine
+
+Now we need to install a tool called create-react-app by using NPM as global
+
+    npm install -g create-react-app
+
+3- Create a New React Project by create-react-app command
+
+After installing create-react-app, we can create our first React app by using this command:
+
+    npx create-react-app my-app
+
+You can name whatever name you want your app, here I decided to name my application “my-app”
+4- Running the React Application
+
+We can run our app on our machine
+
+first, we change our directory to my-app
+
+    cd my-app
+
+then we can run it by this command:
+
+    npm start
